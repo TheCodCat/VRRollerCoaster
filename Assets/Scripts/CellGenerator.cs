@@ -5,7 +5,7 @@ public class CellGenerator : MonoBehaviour
 {
     [SerializeField] private int countX;
     [SerializeField] private int countY;
-    [SerializeField] private GameObject cell;
+    [SerializeField] private CellItem cell;
     [SerializeField] private float addPosition;
     [SerializeField] private Transform startPostion;
 
